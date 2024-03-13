@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+/* side-content */
+
+.main-l{
+    text-align: center;
+    position: fixed;
+    margin-left: -2vw;
+    margin-top: -1vh;
+}
+
+.dp{
+    width:10vw;
+    aspect-ratio: 1/1;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 15vh;
+}
+
+.nav-div{
+    width:25vw;
+    height:100vh;
+    background-color: #ff4040;
+    display: flex;
+    flex-direction: column;
+}
+.nav-lists{
+    margin-top:5vh;
+}
+.nav-lists .nav-item{
+    margin-top:5vh;
+}
+#nav-link {
+    color:#fff;
+    font-size: 2vw;
+    text-decoration: none;
+}
+/* iframe{
+    width:100vw;
+    height: 100vh;
+} */
+/* main-content */
+#main-r{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 30vw;
+    /* display: none; */
+}
+/* about-content */
+#about{
+    font-size:1.5em;
+    font-weight:700;
+    margin-top: 40vh;
+}
+.name{
+    color:#0bb2ff;
+    font-size: 3rem;
+}
+/* education */
+#edu{
+    color:#000;
+}
+#edu table{
+    font-size: 1vw;
+}
+#edu table tr{
+    width: max-content;
+}
+/* area */
+#area .ar-in{
+    text-transform: uppercase;
+}
+#area .pro-lan{
+    text-transform: uppercase;
+}
+#area .spec{
+    text-transform: uppercase;
+}
